@@ -19,7 +19,7 @@ class GroceryItemForm(FlaskForm):
     # - name - StringField
     # - price - FloatField
     # - category - SelectField (specify the 'choices' param)
-    # - photo_url - StringField (use a URL validator)
+    # - photo_url - StringField
     # - store - QuerySelectField (specify the `query_factory` param)
     # - submit button
     pass

@@ -1,6 +1,6 @@
 from sqlalchemy_utils import URLType
 
-from grocery_app import db
+from grocery_app.extensions import db
 from grocery_app.utils import FormEnum
 
 class ItemCategory(FormEnum):
